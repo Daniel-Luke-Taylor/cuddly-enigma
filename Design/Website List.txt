@@ -1,0 +1,36 @@
+Website Treasure Hunt
+
+Theme: Detective/noir
+
+Features: Puzzles, hidden pages/areas, minigames, case files on characters/actors
+
+Goal: To promote the film/game through interactivity 
+
+Minigame Ideas
+- Reconstruct the picture (evidence/crime scene)
+- Lockpicking 
+- Spotting the difference between two objects
+- Hidden object 
+- Organising statements
+- Decoding
+ 
+Pages
+- Home
+ - Brief
+   - Diary entry
+   - Letter from spouse
+   - Detective POV
+- Characters
+- Evidence
+ - Book is killer's diary (final reveal)
+ - Evidence is killer's diary pages
+- About the book
+ - Killer's POV
+- Link to book
+
+Narrative
+- The book being advertised is from the POV of the killer. 
+- The final piece of evidence to be found is the killer's diary, which is the book itself. 
+- This will then lead to a page where you can buy the book
+- Blurb is killer's diary scrap
+
