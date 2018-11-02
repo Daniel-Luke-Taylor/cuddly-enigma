@@ -1,0 +1,29 @@
+Choose product to advertise
+Choose format (VR/MR or Interactive Media)
+
+VR/MR/AR
+- Viewing/tour for art, racing, museums 
+- Virtual showroom for cars, racing, art
+- AR overlay to try products before you buy them (glasses, art, clothes)
+X VR catwalk
+- PSAs (CPR)
+
+
+Interactive Media
+- Promotion through website hunt (game, movie)
+- Advertising products through pulling them apart (cars, watches, computers)
+- Product library for food (able to see different ingredients)
+- Interactive movie/ choose your own adventure (PSAs)
+- Scalectric car thing 
+- Spotting differences game (art, movie, game, PSAs)
+
+
+1 Very Bad
+2 Bad 
+3 Meh
+4 Good
+5 Very Good
+
+Top: Promotion through website hunt/ spot the difference (game, movie)
+Second: Advertising products through pulling them apart (cars, watches, computers)
+Third: Product library for food (able to see different ingredients)
