@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Pick Lock/PickLock.unity
+- path: Assets/Compare Text/Compare Documents.unity
   isLoaded: 1
   isActive: 1
