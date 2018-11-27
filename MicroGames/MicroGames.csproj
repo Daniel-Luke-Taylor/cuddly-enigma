@@ -311,6 +311,7 @@
     <Compile Include="Assets\Compare Text\Wrong.cs" />
     <Compile Include="Assets\Decoder\ChangeNumber.cs" />
     <Compile Include="Assets\Decoder\DecoderLock.cs" />
+    <Compile Include="Assets\LoadScene.cs" />
     <Compile Include="Assets\Photograph\Counter.cs" />
     <Compile Include="Assets\Photograph\Dragable.cs" />
     <Compile Include="Assets\Pick Lock\Lock.cs" />

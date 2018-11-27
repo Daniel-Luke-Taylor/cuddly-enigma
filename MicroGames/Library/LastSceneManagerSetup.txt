@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Compare Text/Compare Documents.unity
+- path: Assets/LoadScenes.unity
   isLoaded: 1
   isActive: 1

@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/LoadScenes.unity
+    guid: 540aa5941c896dc46adcf753a73dd407
+  - enabled: 1
+    path: Assets/Compare Text/Compare Documents.unity
+    guid: 81d8e412b058e914891f5559e0947f77
+  - enabled: 1
+    path: Assets/Compare Text/Compare Statements.unity
+    guid: 4a08b120f3fb6264c884f3d6b88a94e2
+  - enabled: 1
+    path: Assets/Decoder/Decoder.unity
+    guid: e28ac7868519e4542b14973d4db3ba24
+  - enabled: 1
+    path: Assets/Photograph/Photograph.unity
+    guid: 60e3c9e8a7eeef4488a1ee0b5ecd05da
+  - enabled: 1
+    path: Assets/Pick Lock/PickLock.unity
+    guid: d61d414509a9e5149a07f3b3c8135819
   m_configObjects: {}
