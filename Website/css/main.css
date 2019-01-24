@@ -1,0 +1,33 @@
+.top-space{
+    height: 6em;
+}
+
+/*Replace color with wood/table background image*/
+.bg-wood{
+    background-color: #343a40;
+}
+
+.folder-tab{
+    color: black;
+    background-color: yellow;
+    width: 6em;
+    text-align: center;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    box-shadow: inset 0px -5px 6px -3px black;
+}
+
+.current-folder-tab{
+    box-shadow: none;
+}
+
+/*Replace with folder texture*/
+.folder{
+    background-color: yellow;
+    border-radius: 0.2em;
+    box-shadow: 10px 10px 10px black;
+}
+
+.paper{
+    min-height: 50em;
+}
