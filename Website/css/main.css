@@ -31,3 +31,34 @@
 .paper{
     min-height: 50em;
 }
+
+.lined{
+    font: italic 1em "Cambria", arial, serif;
+    margin: auto;
+    padding: 4px 14px 0px 42px;
+    line-height: 1.2em;
+    background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 0px;
+    background-size: 100% 1.2em;
+    width: 100%;
+}
+
+.button{
+    background-color: darkorange;
+    padding: 5px;
+    margin: 1em;
+    border-radius: 5px;
+    text-align: center;
+    width: 6em;
+    font: bold 2em "Comic Sans MS", cursive, sans-serif;
+    box-shadow: 20px 10px purple;
+    border-style: groove;
+}
+
+.button:hover{
+    background-color: green;
+    border-style: dotted;
+}
+
+.button:active{
+    background-color: azure;
+}

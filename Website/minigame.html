@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!--Custom Main Style-->
     <link rel="stylesheet" href="css/main.css">
+    <!--Unity Loader-->
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/MicrogamesPrototypes.json", {onProgress: UnityProgress});
+    </script>
 </head>
 
 <body class="bg-wood">
@@ -18,28 +25,25 @@
     <nav>
         <header class="container d-flex flex-column flex-md-row justify-content-between">
             <a class="py-2 d-none d-md-inline-block folder-tab" href="index.html">Home</a>
-            <a class="py-2 d-none d-md-inline-block folder-tab" href="casefile.html">Case File</a>
+            <a class="py-2 d-none d-md-inline-block folder-tab current-folder-tab" href="casefile.html">Case File</a>
             <a class="py-2 d-none d-md-inline-block folder-tab" href="evidence.html">Evidence</a>
-            <a class="py-2 d-none d-md-inline-block folder-tab current-folder-tab" href="book.html">Book</a>
+            <a class="py-2 d-none d-md-inline-block folder-tab" href="book.html">Book</a>
         </header>
     </nav>
 
     <main class="container folder py-4">
         <!--Page content-->
         <article class="container bg-light paper">
-            <section class="row">
-                <section class="col-md py-2">
-                    <img src="resources/pexels-photo-270238.png" alt="Book image" height="400" width="270">
-                </section>
-                <section class="col-md py-1">
-                    <h1>Book</h1>
-                    <p>Text goes here</p>
-                </section>
-            </section>
-            <section class="row py-4 justify-content-center">
-                <a class="button" href="">Read More</a>
-                <a class="button" href="">Buy now</a>
-            </section>
+            <h1>Minigame</h1>
+            <p>Tada</p>
+            <div class="webgl-content">
+                <div id="gameContainer" style="width: 40em; height: 25em"></div>
+                <div class="footer">
+                    <div class="webgl-logo"></div>
+                    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                    <div class="title">MicroGames</div>
+                </div>
+            </div>
         </article>
     </main>
 
