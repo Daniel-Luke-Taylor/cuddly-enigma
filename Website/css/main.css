@@ -62,3 +62,12 @@
 .button:active{
     background-color: azure;
 }
+
+#item{
+    height: 10em;
+    width: 10em;
+}
+
+.hidden{
+    display: none;
+}
