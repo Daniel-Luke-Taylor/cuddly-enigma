@@ -28,6 +28,7 @@ function getItem(iName) {
     obj.parentNode.removeChild(obj);
 }
 
+//wcSchools read cookie function
 function getCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);

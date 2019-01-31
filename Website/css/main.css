@@ -1,5 +1,5 @@
 .top-space{
-    height: 6em;
+    height: 8em;
 }
 
 /*Replace color with wood/table background image*/
@@ -64,8 +64,11 @@
 }
 
 #item{
-    height: 10em;
-    width: 10em;
+    max-height: 8em;
+    max-width: 8em;
+}
+#item:hover{
+    cursor: zoom-in;
 }
 
 .hidden{
