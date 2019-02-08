@@ -11,9 +11,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!--Custom Main Style-->
     <link rel="stylesheet" href="css/main.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
 </head>
 
-<body class="bg-wood" onload="checkItem(['itemname'])">
+<body class="bg-wood" onload="checkItem(['photograph','lockpick','statements','documents','decoder'])">
     <div class="top-space"></div>
     <nav>
         <header class="container d-flex flex-column flex-md-row justify-content-between">
@@ -26,66 +31,67 @@
 
     <main class="container folder py-4">
         <!--Page content-->
-        <article class="container bg-light paper">
-            <!--Evidence Section-->
-            <section class="row py-1">
-                <section class="col-md">
-                    <h3>Lockpick</h3>
-                    <p>Text goes here</p>
+        <article class="container paper">
+            <article class="paper">
+                <!--Evidence Section-->
+                <section id="photograph"  class="row py-1 hidden">
+                    <section class="col-md">
+                        <h3>Torn-up Photograph</h3>
+                        <p>“The envelope contains what appears to be a photo, but it’s been torn apart into multiple pieces, seemingly in a fit of rage. Reconstruct the photo to complete this piece of evidence.”</p>
+                    </section>
+                    <section class="col-md">
+                        <!--Image link-->
+                        <a href="microgames/photo.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
+                    </section>
                 </section>
-                <section class="col-md">
-                    <!--Image link-->
-                    <a href="microgames/lockpick.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
+                <!--Evidence Section-->
+                <section id="lockpick" class="row py-1 hidden">
+                    <section class="col-md">
+                        <h3>Station Locker</h3>
+                        <p>“The station locker is locked with a padlock, but the photo didn’t suggest the whereabouts of the key. Fortunately, you came prepared. Using your lockpick, rotate the lock, and find out what the locker contains.”</p>
+                    </section>
+                    <section class="col-md">
+                        <!--Image link-->
+                        <a href="microgames/lockpick.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
+                    </section>
                 </section>
-            </section>
-                        <!--Evidence Section-->
-            <section class="row py-1">
-                <section class="col-md">
-                    <h3>Documents</h3>
-                    <p>Text goes here</p>
+                <!--Evidence Section-->
+                <section id="statements" class="row py-1 hidden">
+                    <section class="col-md">
+                        <h3>Suspect Statements</h3>
+                        <p>“You decide to talk to the policeman at the scene. He informs you that he has taken statements from the four suspects who had various interactions with the crime scene and the locker in question. He has noticed that several statements do not corroborate with each other, and believes one of the suspects is lying. He asks for your assistance in determining the guilty party, and hands you his notebook.”</p>
+                    </section>
+                    <section class="col-md">
+                        <!--Image link-->
+                        <a href="microgames/statement.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
+                    </section>
                 </section>
-                <section class="col-md">
-                    <!--Image link-->
-                    <a href="microgames/document.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
+                <!--Evidence Section-->
+                <section id="documents" class="row py-1 hidden">
+                    <section class="col-md">
+                        <h3>Suspicious Documents</h3>
+                        <p>“Read the two documents , and highlight inconsistencies in order to select the differences between them. There are [INSERT NUMBER OF DIFFERENCES HERE] to find.”</p>
+                    </section>
+                    <section class="col-md">
+                        <!--Image link-->
+                        <a href="microgames/document.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
+                    </section>
                 </section>
-            </section>
-                        <!--Evidence Section-->
-            <section class="row py-1">
-                <section class="col-md">
-                    <h3>Photograph</h3>
-                    <p>Text goes here</p>
+                <!--Evidence Section-->
+                <section id="decoder" class="row py-1 hidden">
+                    <section class="col-md">
+                        <h3>Codelock</h3>
+                        <p>“The box appears to be locked with an [ENTER NUMBER OF DIGITS] combination lock. Keep an eye out for possible numbers to be used in the lock.”</p>
+                    </section>
+                    <section class="col-md">
+                        <!--Image link-->
+                        <a href="microgames/decoder.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
+                    </section>
                 </section>
-                <section class="col-md">
-                    <!--Image link-->
-                    <a href="microgames/photo.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
-                </section>
-            </section>
-                        <!--Evidence Section-->
-            <section class="row py-1">
-                <section class="col-md">
-                    <h3>Statements</h3>
-                    <p>Text goes here</p>
-                </section>
-                <section class="col-md">
-                    <!--Image link-->
-                    <a href="microgames/statement.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
-                </section>
-            </section>
-                        <!--Evidence Section-->
-            <section class="row py-1">
-                <section class="col-md">
-                    <h3>Decoder</h3>
-                    <p>Text goes here</p>
-                </section>
-                <section class="col-md">
-                    <!--Image link-->
-                    <a href="microgames/decoder.html"><img src="resources/pexels-photo-270238.png" alt="evidence" height="200" width="300"></a>
-                </section>
-            </section>
+            </article>
         </article>
-        <p id="itemname" class="hidden">Test</p>
     </main>
-    
+
 
     <footer class="container py-2">
         <p class="text-light">Footer</p>
@@ -95,7 +101,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    
+
     <!--Evidence pickups script-->
     <script src="evidence.js"></script>
 </body>

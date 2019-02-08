@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="../css/main.css">
     <!--Unity Loader-->
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/docs.json", {onProgress: UnityProgress});
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/docs.json", {
+            onProgress: UnityProgress
+        });
     </script>
 </head>
 
@@ -33,15 +35,17 @@
 
     <main class="container folder py-4">
         <!--Page content-->
-        <article class="container bg-light paper">
-            <div class="webgl-content">
-                <div id="gameContainer" style="width: 40em; height: 25em"></div>
-                <div class="footer">
-                    <div class="webgl-logo"></div>
-                    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-                    <div class="title">MicroGames</div>
+        <article class="container paper">
+            <article class="paper">
+                <div class="webgl-content">
+                    <div id="gameContainer" style="width: 40em; height: 25em"></div>
+                    <div class="footer">
+                        <div class="webgl-logo"></div>
+                        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                        <div class="title">MicroGames</div>
+                    </div>
                 </div>
-            </div>
+            </article>
         </article>
     </main>
 

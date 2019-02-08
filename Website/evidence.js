@@ -8,7 +8,7 @@ function checkItem(iNames) {
             //display hiddenobjects
             var obj = document.getElementById(iNames[i]);
             if(obj){
-                obj.style.display = "block";
+                obj.style.visibility = "visible";
             }
             //remove collected items
             var obj = document.getElementById("item");
