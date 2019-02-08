@@ -18,7 +18,7 @@ public class Counter : MonoBehaviour {
 
     private void Unlock()
     {
-        print("Correct");
+        gameObject.GetComponent<WinGame>().Win();
     }
 
 }
