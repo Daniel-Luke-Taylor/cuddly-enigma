@@ -6,7 +6,6 @@ public class Control : MonoBehaviour {
 
     private int correct;
     public int pointsNeeded;
-    public GameObject win;
 
 	public void UpdateProgess()
     {
@@ -25,6 +24,6 @@ public class Control : MonoBehaviour {
     private void Complete()
     {
         print("correct");
-        win.SetActive(true);
+        gameObject.GetComponent<WinGame>().Win();
     }
 }

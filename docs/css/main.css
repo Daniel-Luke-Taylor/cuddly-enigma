@@ -1,0 +1,104 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+h1,h3{
+    font-family: 'Martel', serif;
+    padding: 0.5em;
+}
+
+p{
+    padding: 0.5em;
+}
+
+.top-space{
+    height: 8em;
+    background-image: url("../resources/leather-top.jpg");
+    background-repeat: repeat-x;
+}
+
+/*Replace color with wood/table background image*/
+.bg-wood{
+    background-image: url("../resources/leather-main.jpg");
+    background-color: #343a40;
+}
+
+.folder-tab{
+    color: black;
+    background-image: url("../resources/folder_texture_jpeg.jpg");
+    background-color: yellow;
+    width: 6em;
+    text-align: center;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    box-shadow: inset 0px -5px 6px -3px black;
+}
+
+.current-folder-tab{
+    box-shadow: none;
+}
+
+/*Replace with folder texture*/
+.folder{
+    background-image: url("../resources/folder_texture_jpeg.jpg");
+    background-color: yellow;
+    border-radius: 0.2em;
+    box-shadow: 10px 10px 10px black;
+}
+
+.paper{
+    min-height: 50em;
+    box-shadow: 3px 2px 3px -2px gray;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    background-image: url("../resources/paper_texture_jpeg.jpg");
+    background-color: #ffffff;
+}
+
+.lined{
+    font-family: 'Nothing You Could Do', cursive;
+    margin: auto;
+    padding: 4px 14px 0px 42px;
+    line-height: 1.2em;
+    background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 0px;
+    background-size: 100% 1.2em;
+    width: 100%;
+}
+
+.sig{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.5em;
+}
+
+.button{
+    background-color: darkorange;
+    padding: 5px;
+    margin: 1em;
+    border-radius: 5px;
+    text-align: center;
+    width: 6em;
+    font: bold 2em "Comic Sans MS", cursive, sans-serif;
+    box-shadow: 20px 10px purple;
+    border-style: groove;
+}
+
+.button:hover{
+    background-color: green;
+    border-style: dotted;
+}
+
+.button:active{
+    background-color: azure;
+}
+
+#item{
+    max-height: 8em;
+    max-width: 8em;
+}
+#item:hover{
+    cursor: zoom-in;
+}
+
+.hidden{
+    visibility: hidden;
+}

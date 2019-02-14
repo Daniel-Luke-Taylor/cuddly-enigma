@@ -1,25 +1,74 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MicroGames</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/docs.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">MicroGames</div>
-      </div>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!--Custom Main Style-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
+</head>
+
+<body class="bg-wood" onload="checkItem(['photograph'])">
+    <div class="top-space">
+        <!--Evidence Item-->
+        <img id="item" onclick="getItem('photograph')" src="resources/pexels-photo-270238.png" alt="torn photograph" style="position:relative; top: 9em; left: 15em;">
     </div>
-  </body>
+    <nav>
+        <header class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2 d-none d-md-inline-block folder-tab current-folder-tab" href="index.html">Home</a>
+            <a class="py-2 d-none d-md-inline-block folder-tab" href="casefile.html">Case File</a>
+            <a class="py-2 d-none d-md-inline-block folder-tab" href="evidence.html">Evidence</a>
+            <a class="py-2 d-none d-md-inline-block folder-tab" href="book.html">Book</a>
+        </header>
+    </nav>
+
+    <main class="container folder py-4">
+        <!--Page content-->
+        <article class="container paper">
+            <article class="paper">
+                <h1>Welcome</h1>
+                <!--Letter-->
+                <section class="lined">
+                    <p style="padding: 0em;">Private Investigator,<br>
+                        <br> I write to you with a plea for assistance in a case that has proven particularly troublesome to solve.<br>
+                        <br> No doubt you have been following the news reports of the infamous ‘Thin Air’ murderer, who has been going on a killing spree around the city. He leaves his victims in hideous and grotesque displays of ‘artistic expression’, and disappears without a trace, despite committing his murders in public places (hence the moniker). <br>
+                        <br> Admittedly, we don’t know much about the killer, which is where I was hoping you could help us. All current information known about the killer can be found in the <a href="casefile.html">‘Casefile’</a> page of this document. I imagine this will be updated the more you find out about the killer.<br>
+                        <br> We do know one thing about the killer however; he wants us to catch him. A package was sent to the station with no ‘return to sender’ address, containing a few items. Enclosed in this document, you will find a photograph that has been torn apart, with some writing on the back. We were also sent what seems to be a lockbox, the combination to which we do not know, nor have we been able to decipher at the station. We have taken the liberty of organising all of the evidence we have currently collected for you in the <a href="evidence.html">‘Evidence’</a> page, which again can be updated if you ever find more. <br>
+                        <br> As the killer continues his spree and the newspapers continue to cover these killings, I’m under increasing pressure from the Mayor and the guys down at City Hall to catch this lunatic, which is why I’m reaching out to you. You are my best hope of catching this guy, and I hope you’ll see it through to the end.<br>
+                        <br> I wish you the best of luck in catching our killer.<br>
+                        <br> Yours gratefully,<br>
+                        <br> Detective Inspector Smith<br>
+                        <br>
+                        <a class="sig">D.I.Smith</a><br>
+                        <br> City of London Police Department
+                    </p>
+                </section>
+            </article>
+        </article>
+    </main>
+
+
+    <footer class="container py-2">
+        <p class="text-light">Footer</p>
+    </footer>
+
+    <!--Scripts needed to run bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <!--Evidence pickups script-->
+    <script src="evidence.js"></script>
+</body>
+
 </html>

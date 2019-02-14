@@ -9,14 +9,6 @@ public class Dragable : MonoBehaviour , IDragHandler{
     private Vector2 position;
     public GameObject slot;
 
-    private void Start()
-    {
-        float y = Random.value * 300;
-        float x = Random.value * 500;
-        Vector2 startPos = new Vector2(x,y);
-        gameObject.transform.position = startPos;
-    }
-
     public void OnDrag(PointerEventData p)
     {
         gameObject.transform.position = Input.mousePosition;

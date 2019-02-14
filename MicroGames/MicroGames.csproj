@@ -310,6 +310,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ClickLink.cs" />
+    <Compile Include="Assets\ClickLink1.cs" />
     <Compile Include="Assets\Compare Text\Control.cs" />
     <Compile Include="Assets\Compare Text\Correct.cs" />
     <Compile Include="Assets\Compare Text\Wrong.cs" />

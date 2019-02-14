@@ -10,5 +10,9 @@ mergeInto(LibraryManager.library, {
     GotoLink: function () {
         window.location.href = "../casefile.html";
     },
+    
+    GotoBook: function () {
+        window.location.href = "../book.html";
+    },
   
   });

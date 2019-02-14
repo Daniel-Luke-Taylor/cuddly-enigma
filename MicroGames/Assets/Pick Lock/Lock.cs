@@ -22,6 +22,7 @@ public class Lock : MonoBehaviour {
         if(lockSlider.value < unlockPoint + unlockRange && lockSlider.value > unlockPoint - unlockRange)
         {
             Unlock();
+            gameObject.GetComponent<WinGame>().Win();
         }
     }
 

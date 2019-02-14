@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Runtime.InteropServices;
 
 public class WinGame : MonoBehaviour {
-    public string microgame;
+    public string[] microgames;
     public GameObject winScreen;
 
     [DllImport("__Internal")]
@@ -12,7 +12,11 @@ public class WinGame : MonoBehaviour {
 
     public void Win()
     {
-        GetItem(microgame);
+
+        foreach(string m in microgames)
+        {
+            GetItem(m);
+        }
         winScreen.SetActive(true);
     }
 }
