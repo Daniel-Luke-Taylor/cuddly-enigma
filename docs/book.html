@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
 </head>
 
-<body class="bg-wood" onload="checkItem('diary')">
+<body class="bg-wood" onload="checkItem(['diary'])">
     <div class="top-space"></div>
     <nav>
         <header class="container d-flex flex-column flex-md-row justify-content-between">
@@ -35,16 +35,16 @@
             <article class="paper">
                 <section class="row">
                     <section class="col-md py-2">
-                        <img src="resources/pexels-photo-270238.png" alt="Book image" height="400" width="270">
+                        <img src="resources/Book%20Cover%20Design%202.jpg" alt="Book image" height="400" width="600">
                     </section>
-                    <section class="col-md py-1">
+                    <!--<section class="col-md py-1">
                         <h1>Book</h1>
                         <p>Text goes here</p>
-                    </section>
+                    </section>-->
                 </section>
                 <section class="row py-4 justify-content-center">
-                    <button id="diary" class="button hidden" href="">Read More</button>
-                    <button class="button" href="">Buy now</button>
+                    <button id="diary" class="button hidden"><a href="readmore.html">Read More</a></button>
+                    <button class="button"><a href="index.html">Buy now</a></button>
                 </section>
             </article>
         </article>
@@ -58,6 +58,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <!--Evidence pickups script-->
+    <script src="evidence.js"></script>
 </body>
 
 </html>

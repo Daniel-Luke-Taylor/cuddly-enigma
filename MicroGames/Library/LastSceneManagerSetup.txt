@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Decoder/Decoder.unity
+- path: Assets/Compare Text/Compare Statements.unity
   isLoaded: 1
   isActive: 1
