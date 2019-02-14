@@ -1,0 +1,16 @@
+Order of Events:
+- Train station was quiet at 12:00pm
+- No one seen near lockers until 12:10pm
+- Train from Paris arrives at 12:05pm
+- Train from Paris arrives at platform 3
+- Station gets busy at 12:10pm
+- Lockers not able to be seen when station was busy
+- Train to Amsterdam departs at 12:25pm
+- Train to Amsterdam was at Platform 5
+- Station quiet again at 12:30pm
+
+The Ticket Teller is lying
+- Didn't see Driver, as didn't go to the bathroom
+- Locker was messed with between 12:10pm and 12:30pm
+- Amsterdam train left at 12:25pm because of delays
+- Never sold out of tickets, as one customer complained to Station Master
