@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9d5c2646cfcfe9d48a0d539ed32d32ce, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.23101458, g: 0.15793791, b: 0.106748976, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -246,8 +246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: -22}
-  m_SizeDelta: {x: 160, y: 68.5}
+  m_AnchoredPosition: {x: 257.38, y: -22}
+  m_SizeDelta: {x: 117.6, y: 68.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &122948750
 MonoBehaviour:
@@ -369,8 +369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -349, y: -21.999989}
-  m_SizeDelta: {x: 160, y: 68.5}
+  m_AnchoredPosition: {x: -256.38, y: -21.999989}
+  m_SizeDelta: {x: 117.6, y: 68.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &134019516
 MonoBehaviour:
@@ -554,8 +554,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: -22}
-  m_SizeDelta: {x: 160, y: 68.5}
+  m_AnchoredPosition: {x: -0.6, y: -22}
+  m_SizeDelta: {x: 117.6, y: 68.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249105955
 MonoBehaviour:
@@ -677,8 +677,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171, y: -22}
-  m_SizeDelta: {x: 160, y: 68.5}
+  m_AnchoredPosition: {x: 125.82, y: -22}
+  m_SizeDelta: {x: 117.6, y: 68.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &371028134
 MonoBehaviour:
@@ -1357,8 +1357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024796, y: 172}
-  m_SizeDelta: {x: 830.5, y: 111.4}
+  m_AnchoredPosition: {x: 0.000026703, y: 141.37}
+  m_SizeDelta: {x: 640, y: 117.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511379676
 MonoBehaviour:
@@ -1394,7 +1394,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b51dd19eaa51b7b40a56e97f37b9258c, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -1406,7 +1406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Detective Website Microgames Prototypes
+  m_Text: Detective Website Microgames Debug Loader
 --- !u!222 &1511379678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1448,8 +1448,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174, y: -23}
-  m_SizeDelta: {x: 160, y: 68.5}
+  m_AnchoredPosition: {x: -127.76, y: -23}
+  m_SizeDelta: {x: 117.6, y: 68.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645025450
 MonoBehaviour:

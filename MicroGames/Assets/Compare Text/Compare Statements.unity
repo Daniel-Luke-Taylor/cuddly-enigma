@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: daa39506750452344914b85bbee52611, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9d5c2646cfcfe9d48a0d539ed32d32ce, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15038115, g: 0.12844563, b: 0.15368465, a: 1}
+  m_IndirectSpecularColor: {r: 0.23101458, g: 0.15793791, b: 0.106748976, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -168,26 +168,26 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b51dd19eaa51b7b40a56e97f37b9258c, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "The Driver\n\u201CI was driving the Paris to London train and arrived on\r\ntime
-    to Platform 3 of the station. We pulled into the\r\nstation at 12:05 pm, as scheduled.
-    Upon greeting the\r\nStation Master, I went to the toilet before I was due to\r\ndrive
-    the next train out of the station. Thankfully, there\r\nwas no one waiting to
-    go, so I was the only one there. As\r\nI left the toilets, I walked past the lockers,
-    but the station\r\nwas so busy that I didn\u2019t see who was near them at the\r\ntime.
-    I then got on the train to Amsterdam, which I was\r\nsupposed to drive. We left
-    after slight delays at 12:25\r\npm.\u201D\n"
+    m_LineSpacing: 0.78
+  m_Text: "The Driver\n\u201CI was driving the Paris to London train and arrived on\r
+    time to Platform 3 of the station. We pulled into the\r station at 12:05 pm, as
+    scheduled. Upon greeting the\r Station Master, I went to the toilet before I was
+    due to\r drive the next train out of the station. Thankfully, there\r was no one
+    waiting to go, so I was the only one there. As\r I left the toilets, I walked
+    past the lockers, but the station\r was so busy that I didn\u2019t see who was
+    near them at the\r time. I then got on the train to Amsterdam, which I was\r supposed
+    to drive. We left after slight delays at 12:25\r pm.\u201D\n"
 --- !u!222 &250877038
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -160.27, y: -102.84}
+  m_AnchoredPosition: {x: -158.80002, y: -92.57999}
   m_SizeDelta: {x: -326.55, y: -220.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303097573
@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 322897109}
   - component: {fileID: 322897111}
   - component: {fileID: 322897110}
+  - component: {fileID: 322897112}
   m_Layer: 5
   m_Name: Page
   m_TagString: Untagged
@@ -413,7 +414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -159.97, y: 105.44}
+  m_AnchoredPosition: {x: -158.5, y: 93}
   m_SizeDelta: {x: -327.94, y: -219.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322897110
@@ -435,7 +436,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: dc28aac967f11a0419a7a096338db140, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -449,6 +450,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 322897108}
   m_CullTransparentMesh: 0
+--- !u!114 &322897112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 322897108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.56078434}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &331128722
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -504,26 +519,26 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b51dd19eaa51b7b40a56e97f37b9258c, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.9
   m_Text: "Female Passenger\n\u201CI was waiting at Platform 5 for my train. I was
-    going to\r\nAmsterdam to visit a friend. The station was very quiet\r\nuntil people
-    started getting off a train at Platform 3,\r\nthough I didn\u2019t see where it
-    was from. It was then that\r\nthe Station Master arrived to see us onto the train
-    and\r\nmake sure the train would leave on time. I got onto the\r\ntrain after
-    that, but the train was delayed by 5 minutes\r\nafter a passenger complained they
-    couldn\u2019t buy a ticket\r\nbecause the booth was closed when they tried. We
-    left at\r\n12:25 pm.\u201D"
+    going to\r Amsterdam to visit a friend. The station was very quiet\r until people
+    started getting off a train at Platform 3,\r though I didn\u2019t see where it
+    was from. It was then that\r the Station Master arrived to see us onto the train
+    and\r make sure the train would leave on time. I got onto the\r train after that,
+    but the train was delayed by 5 minutes\r after a passenger complained they couldn\u2019t
+    buy a ticket\r because the booth was closed when they tried. We left at\r 12:25
+    pm.\u201D"
 --- !u!222 &331128725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -566,7 +581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 160.08002, y: -104.66}
+  m_AnchoredPosition: {x: 158.6, y: -92.3}
   m_SizeDelta: {x: -326.55, y: -220.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783384055
@@ -1048,7 +1063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 160.08002, y: 104.630005}
+  m_AnchoredPosition: {x: 159.40002, y: 95.099976}
   m_SizeDelta: {x: -326.55, y: -220.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1582336383
@@ -1199,7 +1214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1207,7 +1222,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b51dd19eaa51b7b40a56e97f37b9258c, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
@@ -1218,15 +1233,15 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.9
   m_Text: "The Ticket Teller\n\u201CI was in my booth for the majority of the day,
-    apart\r\nfrom when I took a quick bathroom break at about\r\n12:10 pm. I bumped
-    into the Train Driver, who I saw in\r\nthe toilets. I left and returned to my
-    booth shortly after.\r\nAt this point, the station was very busy with the\r\npassengers
-    that had got back from Paris. I carried on\r\nserving customers who were buying
-    tickets to board the\r\nPlatform 9 train to Amsterdam. Once all the tickets were\r\nsold,
-    I updated the departure board and left the booth to\r\nmove the till money to
-    the safe. As I left, I saw the train\r\nleave the station at around 12:20 pm.\u201D"
+    apart\r from when I took a quick bathroom break at about\r 12:10 pm. I bumped
+    into the Train Driver, who I saw in\r the toilets. I left and returned to my booth
+    shortly after.\r At this point, the station was very busy with the\r passengers
+    that had got back from Paris. I carried on\r serving customers who were buying
+    tickets to board the\r Platform 9 train to Amsterdam. Once all the tickets were\r
+    sold, I updated the departure board and left the booth to\r move the till money
+    to the safe. As I left, I saw the train\r leave the station at around 12:20 pm.\u201D"
 --- !u!222 &1652941964
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1244,6 +1259,7 @@ GameObject:
   - component: {fileID: 1657610455}
   - component: {fileID: 1657610457}
   - component: {fileID: 1657610456}
+  - component: {fileID: 1657610458}
   m_Layer: 5
   m_Name: Page (1)
   m_TagString: Untagged
@@ -1267,7 +1283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -159.97, y: -104.16}
+  m_AnchoredPosition: {x: -158.5, y: -93.9}
   m_SizeDelta: {x: -327.94, y: -219.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657610456
@@ -1289,7 +1305,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: dc28aac967f11a0419a7a096338db140, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1303,6 +1319,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657610454}
   m_CullTransparentMesh: 0
+--- !u!114 &1657610458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657610454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.56078434}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1722393899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,6 +1343,7 @@ GameObject:
   - component: {fileID: 1722393900}
   - component: {fileID: 1722393902}
   - component: {fileID: 1722393901}
+  - component: {fileID: 1722393903}
   m_Layer: 5
   m_Name: Page (3)
   m_TagString: Untagged
@@ -1336,7 +1367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 160.38, y: 103.33}
+  m_AnchoredPosition: {x: 159.7, y: 93.8}
   m_SizeDelta: {x: -327.94, y: -219.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1722393901
@@ -1358,7 +1389,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: dc28aac967f11a0419a7a096338db140, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1372,6 +1403,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1722393899}
   m_CullTransparentMesh: 0
+--- !u!114 &1722393903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1722393899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.56078434}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &1729478843
 Prefab:
   m_ObjectHideFlags: 0
@@ -1664,6 +1709,7 @@ GameObject:
   - component: {fileID: 1914763271}
   - component: {fileID: 1914763273}
   - component: {fileID: 1914763272}
+  - component: {fileID: 1914763274}
   m_Layer: 5
   m_Name: Page (4)
   m_TagString: Untagged
@@ -1687,7 +1733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 160.38, y: -105.97}
+  m_AnchoredPosition: {x: 158.9, y: -93.609985}
   m_SizeDelta: {x: -327.94, y: -219.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914763272
@@ -1709,7 +1755,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: dc28aac967f11a0419a7a096338db140, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1723,6 +1769,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1914763270}
   m_CullTransparentMesh: 0
+--- !u!114 &1914763274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914763270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.56078434}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1970822459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,7 +1818,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -160.27, y: 106.55}
+  m_AnchoredPosition: {x: -158.80002, y: 94.11}
   m_SizeDelta: {x: -326.55, y: -220.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970822461
@@ -1909,7 +1969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1917,25 +1977,25 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b51dd19eaa51b7b40a56e97f37b9258c, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 112
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.9
   m_Text: "The Station Master\n\u201CI was doing my usual rounds of the station at
-    midday.\r\nThe station was quiet, and not many passengers were\r\naround. I didn\u2019t
-    notice anyone by the lockers and could\r\nsee them quite clearly until about 12:05
-    pm, when I was\r\ncalled to Platform 3 to manage passengers coming off of\r the
+    midday.\r The station was quiet, and not many passengers were\r around. I didn\u2019t
+    notice anyone by the lockers and could\r see them quite clearly until about 12:05
+    pm, when I was\r called to Platform 3 to manage passengers coming off of\r the
     train from Paris. When and all passengers had been\r seen to, I went over to Platform
-    5 to see off the train to\r\nAmsterdam. I passed the lockers on my way there,
-    but\r\nbecause the station was so busy, I did not get a clear\r\nlook at them.\u201D"
+    5 to see off the train to\r Amsterdam. I passed the lockers on my way there, but\r
+    because the station was so busy, I did not get a clear\r look at them.\u201D"
 --- !u!222 &2041544434
 CanvasRenderer:
   m_ObjectHideFlags: 0
