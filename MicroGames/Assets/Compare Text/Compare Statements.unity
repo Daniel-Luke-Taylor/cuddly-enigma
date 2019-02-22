@@ -546,6 +546,129 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 331128722}
   m_CullTransparentMesh: 0
+--- !u!1001 &482296405
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2051147525}
+    m_Modifications:
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.67999
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 537.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 346.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046878209940504, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_Text
+      value: "Statements Completed\r\n\r\nCongratulations! You correctly identified
+        the guilty suspect. You inform the policeman of your findings, and he escorts
+        the accomplice to a waiting police car.\r\n\r\nOn your way back to the crime
+        scene you find a note extremely similar to the note you found inside the locker,
+        there are some subtle differences that require further inspection.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317411263687430, guid: 0565da162fe6a7245a14754f7bbfd667, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0565da162fe6a7245a14754f7bbfd667, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &482296406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1317411263687430, guid: 0565da162fe6a7245a14754f7bbfd667,
+    type: 2}
+  m_PrefabInternal: {fileID: 482296405}
+--- !u!224 &482296407 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
+    type: 2}
+  m_PrefabInternal: {fileID: 482296405}
 --- !u!1 &783384053
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +1019,7 @@ MonoBehaviour:
   microgames:
   - statement
   - documents
-  winScreen: {fileID: 1729478844}
+  winScreen: {fileID: 482296406}
 --- !u!1 &1362356363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,145 +1540,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.56078434}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
---- !u!1001 &1729478843
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2051147525}
-    m_Modifications:
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.4000244
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0.078875005
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0.055840466
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0.92200005
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 0.9215
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224452659147347092, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.4194641
-      objectReference: {fileID: 0}
-    - target: {fileID: 224452659147347092, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.9799957
-      objectReference: {fileID: 0}
-    - target: {fileID: 114753719751516382, guid: 0565da162fe6a7245a14754f7bbfd667,
-        type: 2}
-      propertyPath: m_Text
-      value: 'Statements Completed
-
-
-        Congratulations! You correctly identified the guilty suspect. You inform the
-        policeman of your findings, and he escorts the accomplice to a waiting police
-        car.
-
-
-        On your way back to the crime scene you find a note extremely simular to the
-        note you found inside the locker, there are some subtle differences that require
-        further inspection.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1317411263687430, guid: 0565da162fe6a7245a14754f7bbfd667, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0565da162fe6a7245a14754f7bbfd667, type: 2}
-  m_IsPrefabAsset: 0
---- !u!1 &1729478844 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1317411263687430, guid: 0565da162fe6a7245a14754f7bbfd667,
-    type: 2}
-  m_PrefabInternal: {fileID: 1729478843}
---- !u!224 &1729478845 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 224321856524495678, guid: 0565da162fe6a7245a14754f7bbfd667,
-    type: 2}
-  m_PrefabInternal: {fileID: 1729478843}
 --- !u!1 &1794250162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2089,7 +2073,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1237832671}
-  - {fileID: 1729478845}
+  - {fileID: 482296407}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -38,18 +38,25 @@
     </nav>
 
     <main class="container folder py-4">
+        <!--notes-->
+        <textarea id="notes" onblur="saveNotes()">
+            
+        </textarea>
         <!--Page content-->
         <article class="container paper">
             <article class="paper">
                 <section class="row">
                     <section class="col-md py-2">
-                        <p>02/04/1951<br> 20:00 pm<br> ‘Dear Diary’<br> ‘I am writing to you because several strange things have been happening to me and I feel the need to put a record about my own experiences and thoughts through you. Let me start by telling you how I woke up this past morning. This morning I randomly appeared to be on a dead-end street, laying down on the top of a bin. When I woke up, I was feeling confused with a strong headache, the first thing I did was to check my phone and wallet because maybe I was robbed but then I thought, how did I get there? Was I drinking yesterday? How is this possible? The scariest thing is that blood all over the floor, but I didn’t see absolutely anyone dead around. When I got home, I took a shower and while I was washing my head, I felt such a huge pain on the back of my head, like if got hit by someone with an object and I was still having a big of blood on that part of my head. I didn’t take it serious after all, because last night I had one drink and maybe I even had more, during my childhood I was a sleepwalker, so there are many factors that could affect my mental health disorders. Anyways I’ll tell you how this concludes, to be continued…<br>
-                            <br> JD
-                            <br>
-                            <br> 06/05/1951
-                            <br> ‘Dear Diary’<br> ‘I am writing to you because I am very confused, following the news reports and newspapers, I have confirmed that I am a sociopath, there is no doubt on this. Honestly, I don’t know how to control this… is not on my hands, worst thing is I even enjoy what I do. There is a small part of me that refuses to be this way, but I can’t handle it. Everything started when I found out I killed my first two victims, it was a coincidence that I had with them, the locations and everything started making sense but it’s too late, I tried to turn myself in but the adrenaline that this makes me feel, it’s very strong. Not sure what I’m supposed to do but hopefully this will all make sense and I will take one of my two sides! To be continued…<br>
-                            <br> JD
-                            <br></p>
+                        <h2>02/04/1951<br> 20:00 pm<br></h2>
+                        <p class="py-1">‘Dear Diary’<br> ‘I am writing to you because several strange things have been happening to me and I feel the need to put a record about my own experiences and thoughts through you. Let me start by telling you how I woke up this past morning. This morning I randomly appeared to be on a dead-end street, laying down on the top of a bin. When I woke up, I was feeling confused with a strong headache, the first thing I did was to check my phone and wallet because maybe I was robbed but then I thought, how did I get there? Was I drinking yesterday? How is this possible? The scariest thing is that blood all over the floor, but I didn’t see absolutely anyone dead around. When I got home, I took a shower and while I was washing my head, I felt such a huge pain on the back of my head, like if got hit by someone with an object and I was still having a big of blood on that part of my head. I didn’t take it serious after all, because last night I had one drink and maybe I even had more, during my childhood I was a sleepwalker, so there are many factors that could affect my mental health disorders. Anyways I’ll tell you how this concludes, to be continued…<br>
+                        </p>
+                        <p class="sig">JD</p>
+                        <h2>
+                                06/05/1951</h2>
+                        <p class="py-1">‘Dear Diary’<br> ‘I am writing to you because I am very confused, following the news reports and newspapers, I have confirmed that I am a sociopath, there is no doubt on this. Honestly, I don’t know how to control this… is not on my hands, worst thing is I even enjoy what I do. There is a small part of me that refuses to be this way, but I can’t handle it. Everything started when I found out I killed my first two victims, it was a coincidence that I had with them, the locations and everything started making sense but it’s too late, I tried to turn myself in but the adrenaline that this makes me feel, it’s very strong. Not sure what I’m supposed to do but hopefully this will all make sense and I will take one of my two sides! To be continued…<br>
+                        </p>
+                        <p class="sig">JD</p>
+
                     </section>
                 </section>
                 <a class="button" href="index.html" href="index.html">Buy now</a>
@@ -65,6 +72,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!--notes Script-->
+    <script src="notes.js" onload="loadNotes()"></script>
 </body>
 
 </html>

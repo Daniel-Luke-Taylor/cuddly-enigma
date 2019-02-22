@@ -7,6 +7,9 @@ public class LoadScene : MonoBehaviour {
 
     private void Start()
     {
+        #if !UNITY_EDITOR && UNITY_WEBGL
+        WebGLInput.captureAllKeyboardInput = false;
+        #endif
         //get currentURL
         string currentURL = Application.absoluteURL;
         //currentURL = "file:///C:/Users/Daniel%20Taylor/Desktop/Digital%20Artifact%20and%20Demo/cuddly-enigma/docs/lockpick.html";

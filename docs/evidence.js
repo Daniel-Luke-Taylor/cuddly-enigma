@@ -1,6 +1,6 @@
 function checkItem(iNames) {
     //check all names
-    console.log(iNames);
+    console.log("check " + iNames);
     for (var i = 0; i < iNames.length; i++) {
         //read cookies
         var cokie = getCookie(iNames[i])
@@ -22,7 +22,7 @@ function checkItem(iNames) {
 function getItem(iName) {
     //add item cookie
     document.cookie = iName + "=true; path=/";
-    console.log("pickup" + iName);
+    console.log("pickup " + iName + "=true; path=/");
     //removes item
     var obj = document.getElementById("item");
     obj.parentNode.removeChild(obj);

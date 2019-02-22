@@ -17,7 +17,6 @@ p{
     background-repeat: repeat-x;
 }
 
-/*Replace color with wood/table background image*/
 .bg-wood{
     background-image: url("../resources/maroon_leather.jpg");
     background-color: #343a40;
@@ -47,7 +46,6 @@ p{
     box-shadow: none;
 }
 
-/*Replace with folder texture*/
 .folder{
     background-image: url("../resources/folder_texture_jpeg.jpg");
     background-color: yellow;
@@ -102,4 +100,22 @@ p{
 
 .hidden{
     visibility: hidden;
+}
+
+#notes{
+    position: fixed;
+    top: 20em;
+    left: -15em;
+    min-height: 30em;
+    max-height: 30em;
+    min-width: 20em;
+    background-image: url(../resources/paper_texture_jpeg.jpg);
+    box-shadow: 3px 2px 3px -2px gray;
+    border-radius: 0.2em;
+    z-index: 1;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+#notes:focus{
+    left: 2em;
 }
