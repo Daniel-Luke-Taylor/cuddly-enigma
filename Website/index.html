@@ -21,7 +21,7 @@
 <body class="bg-wood" onload="checkItem(['photograph'])">
     <div class="top-space">
         <!--Evidence Item-->
-        <img id="item" onclick="getItem('photograph')" src="resources/pexels-photo-270238.png" alt="torn photograph" style="position:relative; top: 9em; left: 15em;">
+        <img id="item" onclick="getItem('photograph')" src="resources/pexels-photo-270238.png" alt="torn photograph" style="position:relative; top: 15em; left: 40em;">
     </div>
     <nav>
         <header class="container d-flex flex-column flex-md-row justify-content-between">
@@ -42,6 +42,11 @@
 
     <main class="container folder py-4">
         <!--notes-->
+        <div class="pencil">
+            <p style="margin: none">Notes</p>
+            <img src="resources/Pencil.png" height="50px">
+        </div>
+        
         <textarea id="notes" onblur="saveNotes()">
             
         </textarea>
@@ -70,9 +75,9 @@
     </main>
 
 
-    <footer class="container py-2">
+    <!--<footer class="container py-2">
         <p class="text-light">Footer</p>
-    </footer>
+    </footer>-->
 
     <!--Scripts needed to run bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
