@@ -542,12 +542,18 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: "Photograph Completed\r\n\r\nThe photo shows the killer. There is the
-        number 3, with no indication of what the number is for. On the back of the
+        number 3, with no indication of what the number is for. On the front of the
         photo, there is an address for the local train station, with a number for
         one of the lockers there.\r\n\r\nCongratulations! You have completed your
         first piece of evidence for the investigation. It can be viewed at any time
         under the \u2018Evidence\u2019 section of the file, at the top of the page.\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 114249512769548450, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbf0d44cce3e8114098977079311dc07,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0565da162fe6a7245a14754f7bbfd667, type: 2}
   m_IsPrefabAsset: 0
