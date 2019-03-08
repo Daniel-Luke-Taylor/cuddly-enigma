@@ -1,0 +1,6 @@
+Add images for clicking on minigames
+Add minigame images
+Add end of minigame images
+Fix unclickable image error
+Update book page
+Add in 3D models for minigames
