@@ -91,8 +91,8 @@ p{
 }
 
 #item{
-    max-height: 8em;
-    max-width: 8em;
+    max-height: 15em;
+    max-width: 15em;
 }
 #item:hover{
     cursor: zoom-in;

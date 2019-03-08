@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23101458, g: 0.15793791, b: 0.106748976, a: 1}
+  m_IndirectSpecularColor: {r: 0.23115623, g: 0.15804404, b: 0.106902175, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -466,6 +466,26 @@ Prefab:
       propertyPath: m_Text
       value: "Letters Completed\r\n\r\nOne of the inconsistencies was a number, that
         seems important. The rest seem to just be messing with you.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317411263687430, guid: 0565da162fe6a7245a14754f7bbfd667, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114249512769548450, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8764f73d26e27fc4da7662c7ebca8994,
+        type: 3}
+    - target: {fileID: 224374506959583988, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -24.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 224374506959583988, guid: 0565da162fe6a7245a14754f7bbfd667,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 138.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0565da162fe6a7245a14754f7bbfd667, type: 2}
