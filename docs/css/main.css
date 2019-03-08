@@ -116,6 +116,15 @@ p{
     font-family: 'Nothing You Could Do', cursive;
 }
 
+.pencil{
+    color: #ffffff;
+    font-family: 'Nothing You Could Do', cursive;
+    position: fixed;
+    top: 13em;
+    left: 0.1em;
+    z-index: 1;
+}
+
 #notes:focus{
     left: 2em;
 }
